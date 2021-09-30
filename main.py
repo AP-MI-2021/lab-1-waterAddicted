@@ -85,6 +85,8 @@ def main():
       z=int(input('Intorduceti al doilea numar:'))
       print(f'CMMDC dintre {w} si {z} este ',get_cmmdc_v2(w,z))
     elif opiune == 'x': break
+    else:
+      print('Optiune invalida.')
 
 if __name__ == '__main__':
   main()
